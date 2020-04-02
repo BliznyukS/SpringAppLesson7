@@ -13,7 +13,8 @@
           class="ru.alishev.springcourse.ClassicalMusic"
           init-method="doMyInit"
           destroy-method="doMyDestroy"
-          factory-method="getClassicalMusic">
+          factory-method="getClassicalMusic"
+          scope="prototype">
     </bean>
 
     <!--    <bean id="musicPlayer"-->
